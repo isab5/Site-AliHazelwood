@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #fffdd0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 16rem;
+    background-color: #ffa8d9;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3 ease;
+    border-bottom: 3px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.logo:hover,
+.logo:focus{
+    transform: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 60px;
+    text-decoration: underline;
+    font-weight: 700; 
+    cursor: pointer; 
+    transition: 0.5s ease;
+}
+
+a:hover,
+a:focus{
+    color: #006465;
+    transform: scale(1.5);
+}
+
+#introduction{
+    background-color: #006465;
+    color: antiquewhite;
+    width: 90%;
+    margin: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    object-fit: contain;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.author {
+    width: 250px;
+    height: 200px;
+    border-radius: 13%;
+    padding: 30px;
+    margin-bottom: auto;
+}
+
+.biography {
+    margin-left: 200px;
+    margin-bottom: 700px;
+    margin-top: -220px;
+    text-align: justify;
+    margin-left: 300px;
+    margin-bottom: 125px;
+}
+
+.books {
+    height: 250px;
+    padding: 10px;
+    margin-top: auto;
+    gap: 10px;
+    text-align: center;
+}
+
+.sobrenos {
+    background-color: #006465;
+    color: antiquewhite;
+    width: 50%;
+    margin: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.picture {
+    height: 250px;
+    border-radius: 100%;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    border: 10px solid #fffdd0;
+}
+
+.me {
+    text-align: justify;
+    padding: 20px;
+}
+
+.social {
+    transform: none;
+    transition: none;
+    text-decoration: none;
+}
+
+.social:hover,
+.social:focus {
+    color: #ffa8d9;
+}
+
+.contact {
+    background-color: #006465;
+    color: antiquewhite;
+    width: 50%;
+    margin: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+form fieldset{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: #333;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px
+}
+
+form button{
+    cursor: pointer;
+    background-color: #006465;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover{
+    background-color: #018183;
+}
