@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    background-color: #fffdd0;
+    background-color: #FCF8F3;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
@@ -64,7 +64,7 @@ a:focus{
 
 #introduction{
     background-color: #006465;
-    color: antiquewhite;
+    color: #FCF8F3;
     width: 90%;
     margin: 150px;
     margin-right: auto;
@@ -108,7 +108,7 @@ h1 {
 
 .sobrenos {
     background-color: #006465;
-    color: antiquewhite;
+    color: #FCF8F3;
     width: 50%;
     margin: 150px;
     margin-right: auto;
@@ -126,7 +126,7 @@ h1 {
     padding: 5px;
     display: inline-block;
     text-align: center;
-    border: 10px solid #fffdd0;
+    border: 10px solid #FCF8F3;
 }
 
 .me {
@@ -147,7 +147,7 @@ h1 {
 
 .contact {
     background-color: #006465;
-    color: antiquewhite;
+    color: #FCF8F3;
     width: 50%;
     margin: 150px;
     margin-right: auto;
